@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carter Angelo Art Gallery</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../js/script.js" defer></script>
+    <link rel="icon" href="../images/favicon.ico">
+    <style>
+        body{
+            background-color: #2d0100;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="grey_box">
+        <img class="logo" src="../images/logo.png" alt="gallery logo">
+        <h2 class="main_title"><strong>Carter Angelo Art Gallery</strong></h2>
+        <h3 class="description"><em>Art Gallery | Art Trading Centre</em></h3>
+      </div>
+
+      <nav class="navbar">
+        <a href="#" class="toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar_links">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../pages/gallery_page.html">Gallery</a></li>
+                <li><a href="../pages/shop.html">Shop</a></li>
+                <li><a href="../pages/event.html">Events</a></li>
+                <li><a href="../pages/contact.html">Contact</a></li>
+                <li><a href="../pages/about.html">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div>
+        <form class="form" action="mailto:carter.angelo@gmail.com" method="POST">
+            <h2 class="form_heading"><em>Have Any Questions? Contact Us Here</em></h2>
+            <label class="label_text" for="name">Your Name: </label>
+            <input class="text_box" type="text" id="name"  name="name" required>
+            <br>
+            <label class="label_text" for="email">Your E-mail: </label>
+            <input class="text_box" type="email" id="email" name="email" required>
+            <br>
+            <textarea class="question_box" id="message" name="message" cols="25" rows="7" required></textarea><br>
+            <input class="submit" type="submit" value="Send">
+        </form>
+    </div>
+    <br>
+    <br>
+    <hr class="horizontal_line">
+    <hr class="horizontal_line">
+    <div class="contact_us">
+        <p>© Carter Angelo Art Gallery</p>
+        <p>07923673467</p>
+        <p>carter.angelo@gmail.com</p>
+    </div>
+</body>
+</html>
